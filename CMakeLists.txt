@@ -22,7 +22,3 @@ target_link_libraries(opengl OpenGL::GL)
 
 
 
-
-# OpenGL
-find_package(OpenGL REQUIRED)
-
