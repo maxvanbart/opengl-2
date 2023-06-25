@@ -37,8 +37,6 @@ void processInput(GLFWwindow *window)
 
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-
     // Initialise all opengl things
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -157,8 +155,6 @@ int main() {
         glfwPollEvents();
         glfwSwapBuffers(window);
     }
-
-
 
 
 
