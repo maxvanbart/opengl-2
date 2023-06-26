@@ -8,7 +8,7 @@ set(CMAKE_EXE_LINKER_FLAGS "-static")
 
 
 # Define the executable
-add_executable(opengl main.cpp glad.c)
+add_executable(opengl main.cpp glad.c src/shader.cpp src/shader.h src/shaders/default.fs src/shaders/default.vs)
 
 
 # We need a CMAKE_DIR with some code to find external dependencies
